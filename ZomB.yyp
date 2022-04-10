@@ -1,5 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"TestFloor","path":"sprites/TestFloor/TestFloor.yy",},"order":1,},
+    {"id":{"name":"ZombieObject","path":"objects/ZombieObject/ZombieObject.yy",},"order":0,},
+    {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},"order":1,},
     {"id":{"name":"ZombieBase","path":"sprites/ZombieBase/ZombieBase.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -48,7 +51,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.624",
+    "IDEVersion": "2022.3.0.625",
   },
   "resourceVersion": "1.5",
   "name": "ZomB",
