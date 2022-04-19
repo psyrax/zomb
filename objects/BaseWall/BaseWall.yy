@@ -3,7 +3,7 @@
     "name": "TestFloor",
     "path": "sprites/TestFloor/TestFloor.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -25,7 +25,9 @@
     {"x":48.0,"y":48.0,},
     {"x":0.0,"y":48.0,},
   ],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ZombieObject","path":"objects/ZombieObject/ZombieObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -33,7 +35,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object2",
+  "name": "BaseWall",
   "tags": [],
   "resourceType": "GMObject",
 }
